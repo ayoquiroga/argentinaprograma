@@ -33,5 +33,5 @@ let citaRevisada = substring_de_cita[0]+" "+substring_de_cita[1]+" "+substring;
 console.log(citaRevisada);
 
 //punto c con  replace => 'Hola Mundo'.replace('Mundo', 'Amigo');
-let citaRevisada2 = cita.replace(cita,"Tres tristes tigres comen trigo");
+//let citaRevisada2 = cita.replace(cita,"Tres tristes tigres comen trigo");
 //console.log(citaRevisada2+" AQUI CON REPLACE");
