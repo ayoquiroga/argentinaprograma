@@ -1,3 +1,3 @@
 const readlineSync = require('readline-sync');
-let YOUR_VALUE = readlineSync.question("YOUR_QUESTION");
-console.log('Your name is: %s', name);
+let name = readlineSync.question("cuál es tu nombre?");
+console.log('Tu nombre es: %s', name);
