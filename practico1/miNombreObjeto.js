@@ -11,4 +11,4 @@ let nombre_persona = {
     edad: 45
 }
 
-console.log("Mi objeto persona es el siguiente: " + JSON.stringify(nombre_persona));
+console.log(`Mi objeto persona es el siguiente: ${JSON.stringify(nombre_persona)}`);

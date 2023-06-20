@@ -15,6 +15,6 @@ nombre = 'Alejandro';
 var apellido = 'Quiroga';
 var edad = 45;
 
-console.log("Hola, "+nombre+" "+ apellido +". Tienes "+edad+" años.");
+console.log(`Hola, ${nombre} ${apellido}. Tienes ${edad} años.`);
 
 
