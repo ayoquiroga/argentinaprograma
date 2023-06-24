@@ -82,9 +82,9 @@ for ( let l = 0 ; l < admitidos.length ; l++ ) {
     // elemento al que apunte al índice "l" del bucle anterior y poder ordenarlos alfabeticamente
     for ( let o = l ; o < admitidos.length ; o++ ) {
 
-        // si el elemento que apunta el ínidice "o" es menor alfabéticamente 
+        // si el elemento que apunta el ínidice "o" es menor alfabéticamente node li    
         // al elemento que apunta el índice "abc_minimo"
-        if ( admitidos[o] < admitidos[abc_minimo] ) {
+        if ( admitidos[o].toLowerCase() < admitidos[abc_minimo].toLowerCase()) {
 
             // entonces le re-asignamos el índice "o" a la variable "abc_minimo"
             abc_minimo = o;
